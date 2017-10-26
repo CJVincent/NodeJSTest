@@ -5,7 +5,7 @@ var mongoDBURI = process.env.MONGODB_URI ||'mongodb://CJV:doritos61@ds125565.mla
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'CS at CSUEB' });
 });
 
 router.get('/doit', function(req, res, next) {
